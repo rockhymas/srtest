@@ -9,4 +9,10 @@ class ApplicationReflex < StimulusReflex::Reflex
   #   delegate :current_user, to: :connection
   #
   # Learn more at: https://docs.stimulusreflex.com
+
+  def dude
+    morph :nothing
+    
+  end
+
 end
